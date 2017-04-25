@@ -1,0 +1,28 @@
+.navbar-ageplan {
+  background: #000;
+  margin-bottom: 0px !important;
+  border-radius: 0px;
+  display: none;
+}
+
+.icon-bar {
+    background: #fff;
+}
+
+.navbar-brand{
+  height: auto;
+}
+
+@media (max-width: 640px){
+  .navbar-ageplan {
+      display: block;
+  }
+
+  .wrapper-content {
+    padding-left: 0px;
+  }
+
+  .sidebar{
+    display: none;
+  }
+}
